@@ -1,0 +1,30 @@
+.portifolio_pay__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portifolio_pay__content {
+  max-width: 31.125rem;
+  text-align: center;
+  padding-top: 1.25rem;
+}
+
+.portifolio_pay__content h2 {
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 2.1875rem;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.portifolio_pay__content p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding-top: 1.25rem;
+}

@@ -1,0 +1,52 @@
+.credit_card {
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+}
+
+.credit_card__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.credit_card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 31.125rem;
+}
+
+.credit_card__content h2 {
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 2.1875rem;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.credit_card__content p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding-top: 1.25rem;
+}
+
+.card02 {
+  transform: rotate(20deg);
+  animation: loading 1000ms alternate 400ms infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: translate-x(20deg);
+  }
+}
