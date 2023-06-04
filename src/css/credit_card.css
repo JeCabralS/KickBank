@@ -38,7 +38,7 @@
 
 .card02 {
   transform: rotate(20deg);
-  animation: loading 1000ms alternate 400ms infinite;
+  animation: loading 1500ms alternate 500ms infinite;
 }
 
 @keyframes loading {
