@@ -1,10 +1,12 @@
-function App (event) {
-  event.addEventListener(() => {
-    console.log('hellor')
-  })
-}
+document.addEventListener('DOMContentLoaded', () => {
+
+  new TypeIt(".animated", {
+    speed: 500,
+    waitUntilVisible: true,
+    loop: true,
+  }).type("É prático!").delete(10).type("É rápido!").delete(10).type("É seguro").go();
+})
 
 
-const nome = document.querySelector(".app");
 
-console.log("nome");
+

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/index/style.css" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <title>Kickbank</title>
   </head>
   <body>
@@ -21,24 +22,34 @@
         </ul>
         <div class="navbar_image">
           <img src="./src/img/conta.svg " alt="" />
-          <span>Acessar conta</span>
+          <span><a href="./account.html">Acessar conta</a></span>
         </div>
       </nav>
     </header>
 
     <main>
       <section class="banner">
-        <div class="banner_flex container_banner">
-          <div class="banner_woman">
-            <img src="./src/img/womanbannerpng.png" alt="" />
-          </div>
-          <div class="banner_content">
-            <h2>
-              Nós acreditamos que só uma pessoa pode ter controle sobre sua vida
-              financeira <span>você</span>.
-            </h2>
-            <button class="btn_info">Abrir conta</button>
-            <span class="banner_info">Saiba mais</span>
+        <div class="container">
+          <div class="banner_flex">
+            <div class="banner_woman">
+              <img src="./src/img/apontando2.png" alt="" />
+            </div>
+
+            <div class="banner_content">
+              <h2>
+                Nós acreditamos que só uma pessoa pode ter controle sobre sua
+                vida financeira <span class="text_design">Você</span>.
+              </h2>
+              <button class="btn_info">Abrir conta</button>
+              <span class="banner_info">Saiba mais</span>
+            </div>
+            <div class="banner_woman">
+              <img
+                class="imgApontando1"
+                src="./src/img/apontando1.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -77,6 +88,10 @@
               Só quem tem mais de 70 opções de cartões pode ajudar a escolher o
               cartão que dá match com <span>você</span> .
             </p>
+            <p>
+              Facilite seu dia a dia com nosso cartão, Abra sua conta de
+              onde estiver e já comece a usar <span class="animated"></span>
+            </p>
             <button class="btn_info">Peça já o seu</button>
             <span class="banner_info">Saiba mais</span>
           </div>
@@ -88,9 +103,17 @@
         </div>
       </section>
 
+      <section class="autoatendimento container">
+        <div class="autoatendimento_text">
+          <div class="autoatendimento_p">
+           
+          </div>
+        </div>
+      </section>
+
       <section class="banner_app">
         <div class="banner_app__flex container">
-          <div>
+          <div class="woman01">
             <img src="./src/img/woman.svg" alt="" />
           </div>
           <div class="banner_app__content">
@@ -103,7 +126,7 @@
               <img src="./src/img/apple.svg" alt="" />
             </div>
           </div>
-          <div>
+          <div class="woman02">
             <img src="./src/img/woman-holding.svg" alt="" />
           </div>
         </div>
@@ -111,7 +134,7 @@
 
       <section class="portifolio_pay">
         <div class="portifolio_pay__flex container">
-          <div>
+          <div class="card_google">
             <img src="./src/img/cel_google.png" alt="" />
           </div>
           <div class="portifolio_pay__content">
@@ -204,6 +227,10 @@
       </div>
     </footer>
 
+    <script
+      crossorigin="anonymous"
+      src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"
+    ></script>
     <script src="./src/js/main.js"></script>
   </body>
 </html>

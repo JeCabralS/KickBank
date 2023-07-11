@@ -1,0 +1,28 @@
+.links_bank {
+  display: flex;
+  text-align: center;
+}
+
+.links_bank ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.links_li{
+
+  animation: scroll 40s ease-in infinite;
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-250);
+  }
+}
+

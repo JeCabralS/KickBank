@@ -1,11 +1,9 @@
-
-
-.banner_app{
+.banner_app {
   display: flex;
   align-items: center;
-    background-color: #F6D88E;
-    height: 21.125rem;
-    margin-bottom: 6.25rem;
+  background-color: #fceabe;
+  height: 21.125rem;
+  margin-bottom: 6.25rem;
 }
 
 .banner_app__flex {
@@ -14,23 +12,26 @@
   justify-content: center;
 }
 
-.banner_app__content{
+.banner_app__content {
   display: flex;
   flex-direction: column;
   gap: 3.75rem;
 }
 
-
-.banner_app__content p{
+.banner_app__content p {
   max-width: 31.125rem;
   text-align: center;
   font-size: 1.875rem;
 }
 
-.banner_app__apps{
+.banner_app__apps {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
+  cursor: pointer;
 }
 
+.woman01, .woman02, .banner_app__content {
+  flex: 1;
+}

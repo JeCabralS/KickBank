@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
+
 }
 
 .credit_card__content {
@@ -15,6 +16,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 31.125rem;
+  flex: 1;
 }
 
 .credit_card__content h2 {

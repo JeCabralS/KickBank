@@ -8,6 +8,7 @@ header {
   align-items: center;
   justify-content: space-around;
   padding: 1.875rem 0;
+  flex-wrap: wrap;
 }
 
 .navbar h2 {
@@ -16,7 +17,7 @@ header {
   color: #fff;
 }
 .navbar h2 span {
-  color: #f6d88e;
+  color: #FCEABE;
 }
 
 .navbar_links {
@@ -34,7 +35,7 @@ header {
 }
 
 .navbar_links li:hover {
-  color: #f6d88e;
+  color: #FCEABE;
 }
 
 .navbar_image {
@@ -52,5 +53,9 @@ header {
 }
 
 .navbar_image span:hover {
-  color: #f6d88e;
+  color: #FCEABE;
+}
+
+.navbar_image span a {
+  color: #fff;
 }

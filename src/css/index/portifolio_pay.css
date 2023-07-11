@@ -1,11 +1,14 @@
+
+
+
 .portifolio_pay__flex {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 900px;
 }
 
 .portifolio_pay__content {
-  max-width: 31.125rem;
   text-align: center;
   padding-top: 1.25rem;
 }
@@ -28,3 +31,10 @@
   text-transform: uppercase;
   padding-top: 1.25rem;
 }
+
+.card_google, .portifolio_pay__content {
+  flex: 1;
+  display: block;
+  max-width:max-conte;
+}
+
