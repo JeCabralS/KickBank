@@ -20,7 +20,7 @@
   border-radius: 0.625rem;
   width: 7.5rem;
   height: 7.5rem;
-  background-color: #49a0fd;
+  background: linear-gradient(to bottom, #82baf2, #74b4f5, #66adf8, #58a7fb, #49a0fd);
 }
 
 .cards_icon span {

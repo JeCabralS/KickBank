@@ -1,5 +1,5 @@
 header {
-  background-color: #49a0fd;
+  background: #4e1e36;
 }
 
 .navbar {
@@ -17,7 +17,7 @@ header {
   color: #fff;
 }
 .navbar h2 span {
-  color: #FCEABE;
+  color: #f7b801;
 }
 
 .navbar_links {
@@ -35,7 +35,7 @@ header {
 }
 
 .navbar_links li:hover {
-  color: #FCEABE;
+  color: #f7b801;
 }
 
 .navbar_image {
@@ -58,4 +58,16 @@ header {
 
 .navbar_image span a {
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .navbar_links {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 12px;
+  }
+  .navbar_image span {
+    padding-top: 10px;
+  }
 }

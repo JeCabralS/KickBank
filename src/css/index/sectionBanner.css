@@ -1,82 +1,111 @@
-
-.banner{
-  background-color: #fceabe;
-  height: 517px;
-}
-
-
-
-.banner_flex {
-  display: flex;
-  align-items: center;
-
-}
-
-.banner_woman {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.banner_woman img {
-  width: 500px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-
-.banner_woman,
-.banner_content {
-  flex: 1;
-}
-
-.banner_app__flex {
+.banner-flex {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
-.banner_content {
+.banner-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 24.375rem;
-  margin: 0 auto;
+
 }
 
-.banner_content h2 {
-  max-width: 500px;
-  font-weight: 400;
-  font-size: 36px;
+.banner-content h2 {
+  max-width: 900px;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
   text-align: center;
-  line-height: 1.2;
-  text-transform: uppercase;
+  line-height: 1.5;
+  color: #4c4c4c;
+  font-weight: 400;
 }
 
-.banner_content h2 span {
-  font-weight: 500;
+.banner-span {
+  color: #4c4c4c;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.banner_info {
+  border-bottom: 0.6px solid #4c4c4c;
+  cursor: pointer;
+  font-style: italic;
 }
 
 .btn_info {
   margin-top: 1.875rem;
-  padding: 1.25rem 3.125rem;
+  padding: 15px 40px;
   border-radius: 0.5rem;
   border: none;
-  color: #fff;
-  background-color: #703e57;
+  color: #494444;
+  background: #f7b801;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.125rem;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
-.banner_info {
-  padding: 0.625rem;
-  font-style: oblique;
-  text-decoration: underline;
+.btn_info:hover {
+  background: #f7b801;
   cursor: pointer;
 }
 
-.text_design {
-  font-size: 3rem;
-  color: rgb(73, 160, 253, 0.9);
+.imgApontando1 {
+  background: #f8f7f5;
+  border-radius: 0  0 10px 10px;
 }
+
+.ge {
+  position: relative;
+}
+
+
+.icons1 {
+  width: 50px;
+  left: 93px;
+  top: 34px;
+  position: absolute;
+
+}
+
+
+.icons2 {
+  width: 50px;
+  position: absolute;
+  right: 93px;
+  top: 113px;
+  transform: rotate(20deg);
+  animation: loading 1500ms alternate 500ms infinite;
+}
+
+.icons3 {
+  width: 50px;
+  position: absolute;
+  right: 76px;
+  bottom: 125px;
+}
+
+.icons4 {
+  width: 50px;
+  position: absolute;
+  left: 10%;
+  bottom: 259px;
+  transform: rotate(20deg);
+  animation: loading 1500ms alternate 500ms infinite;
+}
+
+@keyframes iconsbank {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: translate-x(50deg);
+  }
+}
+
+
