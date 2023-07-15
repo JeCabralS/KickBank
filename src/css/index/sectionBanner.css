@@ -41,16 +41,16 @@
   border-radius: 0.5rem;
   border: none;
   color: #494444;
-  background: #f7b801;
+  background: #F7B801;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.125rem;
   cursor: pointer;
   margin-bottom: 10px;
 }
 
 .btn_info:hover {
-  background: #f7b801;
+  background: #eec043;
   cursor: pointer;
 }
 

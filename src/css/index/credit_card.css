@@ -1,47 +1,69 @@
 .credit_card {
-  margin-top: 6.25rem;
-  margin-bottom: 6.25rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .credit_card__flex {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1.25rem;
-
+  justify-content: space-around;
 }
 
 .credit_card__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 31.125rem;
-  flex: 1;
+ 
 }
 
-.credit_card__content h2 {
-  font-weight: 500;
-  font-size: 1.875rem;
-  line-height: 2.1875rem;
+.credit_card h2 {
+  max-width: 500px;
+  font-weight: 700;
+  font-size: 50px;
   text-align: center;
-  letter-spacing: 0.09em;
   text-transform: uppercase;
+  color: #4c4c4c;
+  margin-left: 20px;
 }
 
 .credit_card__content p {
+  max-width: 380px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 18px;
   line-height: 1.4375rem;
-  text-align: center;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  text-align: justify;
+  letter-spacing: 0.02em;
   padding-top: 1.25rem;
+  color: #7a7786;
 }
 
 .card02 {
+  width: 380px;
+}
+
+.card02 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.animated {
+  text-transform: uppercase;
+    color: #7a7786;
+    font-size: 18px;
+    text-align:left;
+    font-weight: 600;
+
+}
+
+/* .card02 {
   transform: rotate(20deg);
   animation: loading 1500ms alternate 500ms infinite;
-}
+} */
 
 @keyframes loading {
   0% {

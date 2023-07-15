@@ -1,37 +1,30 @@
-.banner_app {
+
+
+.banner-app_flex {
   display: flex;
   align-items: center;
-  background-color: #fceabe;
-  height: 21.125rem;
-  margin-bottom: 6.25rem;
+  justify-content: space-around;
 }
 
-.banner_app__flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner_app__content {
-  display: flex;
-  flex-direction: column;
-  gap: 3.75rem;
-}
-
-.banner_app__content p {
-  max-width: 31.125rem;
+.banner-app_text {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 37px;
   text-align: center;
-  font-size: 1.875rem;
+  color: #7a7786;
 }
 
-.banner_app__apps {
+.icons-app {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 1.25rem;
-  cursor: pointer;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
 }
 
-.woman01, .woman02, .banner_app__content {
-  flex: 1;
+.banner-app_image{
+  background-color: #F7B801;
+  border-radius: 10px;
 }

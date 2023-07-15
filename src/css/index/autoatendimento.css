@@ -11,22 +11,12 @@
   gap: 20px;
 }
 
-.autoatendimento_p  p{
+.autoatendimento_p p {
   max-width: 500px;
- 
 }
 
-
 .autoatendimento_text p {
-
   font-size: 30px;
   font-weight: 500;
   color: #666;
-}
-
-
-.animated {
-  color:rgb(73, 160, 253, 0.9);
-  font-size: 20px;
-  text-align:left;
 }
